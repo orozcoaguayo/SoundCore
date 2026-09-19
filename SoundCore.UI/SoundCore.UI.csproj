@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <!-- Habilitado únicamente para poder usar System.Windows.Media.MediaPlayer
+         (reproducción real de audio). La interfaz sigue siendo 100% Windows Forms. -->
+    <UseWPF>true</UseWPF>
+    <RootNamespace>SoundCore.UI</RootNamespace>
+    <AssemblyName>SoundCore.UI</AssemblyName>
+    <ApplicationVisualStyles>true</ApplicationVisualStyles>
+    <ApplicationUseCompatibleTextRendering>false</ApplicationUseCompatibleTextRendering>
+    <ApplicationHighDpiMode>SystemAware</ApplicationHighDpiMode>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SoundCore.Modelos\SoundCore.Modelos.csproj" />
+    <ProjectReference Include="..\SoundCore.EstructurasPropias\SoundCore.EstructurasPropias.csproj" />
+  </ItemGroup>
+
+</Project>

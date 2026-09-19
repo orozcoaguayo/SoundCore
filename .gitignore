@@ -1,0 +1,18 @@
+## .NET / Visual Studio
+bin/
+obj/
+*.user
+.vs/
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Resultados de build
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+## Archivos de OS
+.DS_Store
+Thumbs.db
